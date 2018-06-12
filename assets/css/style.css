@@ -75,9 +75,11 @@ textarea {
 
 #cont div {
 	padding: 1em 0.5em;
-	margin-bottom: 2em;
+  margin-bottom: 2em;
 	outline: 0.1em solid #E5E3F2;
-	background-color: #FFF;
+  background-color: #FFF;
+  width: 100%;
+
 }
 
 p {
