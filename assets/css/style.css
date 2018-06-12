@@ -59,6 +59,14 @@ textarea {
 	outline: none;
 }
 
+/*Estilo numero de caracteres*/
+#number-of-char {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #4E4D53;
+  position: relative;
+  left: 200px;
+}
+
 /* Estilos contenedor comentarios */
 #cont {
 	border-radius: 8px;

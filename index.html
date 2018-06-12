@@ -25,8 +25,12 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <textarea class="txt" id="comment" placeholder="Añade un comentario..."></textarea>
+            <textarea class="txt" id="comment" placeholder="Añade un comentario..." onKeyDown="contar()" on></textarea>
           </div>
+        </div>
+        <div class="row">
+          <!-- Acá va el contador de caracteres -->
+          <div class="col-12" id="number-of-char">Caracteres disponibles: <input disabled size="3" value="140" id="contador"></div>
         </div>
         <div class="row">
           <div class="col-12">
