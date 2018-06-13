@@ -1,15 +1,13 @@
 body {
 	margin: 0 auto;
-	background-color: #FAFAFA;
+	background-color: whitesmoke;
 }
-
-/* Estilos generales */
 
 .center {
 	text-align: center;
 }
 
-/* Estilos Header */
+/* Estilos Header, donde dice Twitter */
 header {
 	background-color: deepskyblue;
   text-align: center;
@@ -21,9 +19,6 @@ header div img {
 	width: 10em;
 }
 
-/* Estilos imágen y su contenedor */
-
-/* Estilo contenedor cuadro de texto para escribir comentario */
 textarea {
 	width: 80%;
 	height: 150px;
@@ -38,7 +33,7 @@ textarea {
   resize: none;
 }
 
-/* Estilos botón agregar */
+/* Estilos botón TWEET */
 #btn {
 	background-color: deepskyblue;
 	border: 0px;
@@ -51,12 +46,9 @@ textarea {
 	color: #FFF;
 }
 
+/* estilo botón al posicionarse sobre él*/
 #btn:hover {
 	background-color: darkorange;
-}
-
-#btn:focus, textarea:focus{
-	outline: none;
 }
 
 /*Estilo numero de caracteres*/
@@ -73,13 +65,7 @@ textarea {
 	margin: 0 auto;
 	color: #4E4D53;
 	text-align: left;
-	/*margin-bottom: 6em;*/
-	/*padding: 0 16%; */
 }
-
-/*#cont span {
-	margin-left: 1em;
-}*/
 
 #cont div {
 	padding: 1em 0.5em;
@@ -87,10 +73,9 @@ textarea {
 	outline: 0.1em solid #E5E3F2;
   background-color: #FFF;
   width: 100%;
-
 }
 
 p {
 	display: inline-block;
-	margin-left: 0.5em;
+	margin-left: 20px;
 }
